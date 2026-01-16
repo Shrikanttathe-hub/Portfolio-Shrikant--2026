@@ -13,11 +13,12 @@ const Hero = () => {
 
          <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Shrikant</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop 3D visuals, user <br className='sm:block hidden'/>ineterfacrs and web applicaions</p>
+          <h2 className='text-[#915eff]' style={{fontSize: "35px", fontWeight: "bold"}}>MERN Stack Developer</h2>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Passionate about designing and<br className='sm:block hidden'/>building intuitive web interfaces.</p>
          </div> 
         </div>
         <ComputersCanvas/>
-        <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <div className='absolute xs:bottom-2 bottom-32 w-full flex justify-center items-center'>
           <a href='#about'>
             <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
               <motion.dev animate={{ y: [0, 24, 0]}}
