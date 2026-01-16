@@ -26,7 +26,7 @@ import bootStrap from '../assets/tech/bootstrap.png';
 import expressjs from '../assets/tech/expressjs.png';
 import Blog from '../assets/img/blog.webp';
 import Snatche from '../assets/img/Snatche.png';
-import CryptoTracker from '../assets/img/CryptoTracker.png';
+import CryptoTracker from '../assets/img/cryptoTracker.png';
 import Sugat from '../assets/img/Sugat.png'
 export const navLinks = [
   {
