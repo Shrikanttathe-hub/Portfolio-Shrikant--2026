@@ -16,14 +16,16 @@ const Contact = () => {
   });
    const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-    const {name , value} = e.target;
-    setForm({...form, [name] : value})
+    const { name , value } = e.target;
+    setForm({...form, [name] : value })
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send('service_ez4pmdb','template_ouaeg4k', {
+    emailjs.send(
+      'service_ez4pmdb',
+      'template_ouaeg4k', {
       from_name : form.name,
       to_name: "Shrikant",
       from_email: form.email,
@@ -55,21 +57,21 @@ const Contact = () => {
         <label className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your Name</span>
           <input type='text' name='name' value={form.name} onChange={handleChange} placeholder=" What's your name ? " 
-          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>
 
         <label className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your Email</span>
           <input type='email' name='email' value={form.email} onChange={handleChange} placeholder=" What's your Email ? " 
-          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>
 
         <label className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your Message</span>
           <textarea rows="7" name='message' value={form.message} onChange={handleChange} placeholder=" What do you want to say?" 
-          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>
 

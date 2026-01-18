@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  // typescript,
   html,
   css,
   reactjs,
@@ -14,9 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  // docker,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 import epitoza from '../assets/company/epitoza.png';
