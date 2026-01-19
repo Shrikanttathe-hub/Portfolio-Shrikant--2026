@@ -210,3 +210,73 @@ body,
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .heroSection{
+    flex-direction: column;
+    height: 100%;
+  }
+  .heroSectionHeadingRole{
+    font-size: 25px;
+  }
+  .buttonSection{
+    width: 100%;
+    column-gap: 20px;
+  }
+  .buttonSection .getMyresume{
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .buttonSection .contactMe{
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .heroSection .description{
+    font-size: 20px;
+  }
+  .heroSection .profileSection{
+    align-self: center;
+    width: 80% !important;
+    margin: 10px 0px 20px 0px !important;
+  }
+  .heroSection .profileSection img{
+    width: 100% !important;
+  }
+   .movingButton{
+    margin: 20px 0px !important;
+    transform: translateY(100%) !important;
+     top: 100% !important;
+   }
+   .aboutSection{
+    display: block;
+    margin-top: 20%;
+   }
+   .hash-span {
+    margin-top:-50px !important;
+   }
+  
+}
+
+
+.stars {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(1px 2px at 10% 15%, #272c88, transparent),
+    radial-gradient(1px 2px at 15% 20%, #272c88, transparent),
+    radial-gradient(1px 2px at 20% 25%, #272c88, transparent),
+    radial-gradient(1px 2px at 25% 30%, #272c88, transparent),
+    radial-gradient(1px 2px at 30% 40%, #272c88, transparent),
+    radial-gradient(1px 2px at 40% 50%, #272c88, transparent),
+    radial-gradient(1px 2px at 50% 60%, #272c88, transparent),
+    radial-gradient(1px 2px at 60% 70%, #272c88, transparent),
+    radial-gradient(1px 2px at 70% 80%, #272c88, transparent),
+    radial-gradient(1px 2px at 80% 100%, #272c88, transparent);
+  background-size: 500px 500px;
+  animation: moveStars 60s linear infinite;
+}
+
+@keyframes moveStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-1000px); }
+}

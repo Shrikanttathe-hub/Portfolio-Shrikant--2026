@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -16,12 +15,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -39,6 +36,5 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
 };
