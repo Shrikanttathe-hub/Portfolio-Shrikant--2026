@@ -18,7 +18,6 @@ import threejs from "../assets/tech/threejs.png";
 import materialUi from "../assets/tech/materialUi.png";
 import bootStrap from "../assets/tech/bootstrap.png"
 import expressjs from "../assets/tech/expressjs.png";
-
 import epitoza from '../assets/company/epitoza.png';
 import AccioJob from '../assets/company/accioNew.jpeg';
 import Blog from '../assets/img/blog.webp';
