@@ -254,7 +254,14 @@ body,
    .hash-span {
     margin-top:-50px !important;
    }
-  
+  .mobileTechIcon:hover{
+    rotate: 360deg;
+    transition: 0.3s all ease-in-out;
+    scale: 1.1;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 5px;
+  }
 }
 
 
