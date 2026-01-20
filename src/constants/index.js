@@ -14,7 +14,7 @@ import nodejs from "../assets/tech/nodejs.png";
 import mongodb from "../assets/tech/mongodb.png";
 import git from "../assets/tech/git.png";
 import figma from "../assets/tech/figma.png";
-import threejs from "../assets/tech/threejs.svg";
+import threejs from "../assets/tech/threejs.png";
 import materialUi from "../assets/tech/materialUi.png";
 import bootStrap from "../assets/tech/bootstrap.png"
 import expressjs from "../assets/tech/expressjs.png";
