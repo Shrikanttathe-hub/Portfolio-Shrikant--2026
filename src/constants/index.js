@@ -3,23 +3,24 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  threejs,
 } from "../assets";
-import epitoza from '../assets/company/epitoza.png';
-import AccioJob from '../assets/company/accioNew.jpeg';
+import html from '../assets/tech/html.png';
+import css from '../assets/tech/css.png';
+import reactjs from '../assets/tech/reactjs.png';
+import redux from '../assets/tech/redux.png';
+import javascript from '../assets/tech/javascript.png';
+import tailwind from '../assets/tech/tailwind.png';
+import nodejs from '../assets/tech/nodejs.png';
+import mongodb from '../assets/tech/mongodb.png';
+import git from '../assets/tech/git.png';
+import figma from '../assets/tech/figma.png';
+import threejs from '../assets/tech/threejs.svg';
 import materialUi from '../assets/tech/materialUi.png';
 import bootStrap from '../assets/tech/bootstrap.png';
-import expressjs from '../assets/tech/expressjs.png';
+import Expressjs from '../assets/tech/expressjs.png';
+
+import epitoza from '../assets/company/epitoza.png';
+import AccioJob from '../assets/company/accioNew.jpeg';
 import Blog from '../assets/img/blog.webp';
 import Snatche from '../assets/img/Snatche.png';
 import CryptoTracker from '../assets/img/cryptoTracker.png';
@@ -78,7 +79,7 @@ const technologies = [
   
   {
     name: "expressjs",
-    icon: expressjs,
+    icon: Expressjs,
   },
   {
     name: "Node JS",
