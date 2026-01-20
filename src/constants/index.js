@@ -4,20 +4,20 @@ import {
   creator,
   web,
 } from "../assets";
-import html from '../assets/tech/html.png';
-import css from '../assets/tech/css.png';
-import reactjs from '../assets/tech/reactjs.png';
-import redux from '../assets/tech/redux.png';
-import javascript from '../assets/tech/javascript.png';
-import tailwind from '../assets/tech/tailwind.png';
-import nodejs from '../assets/tech/nodejs.png';
-import mongodb from '../assets/tech/mongodb.png';
-import git from '../assets/tech/git.png';
-import figma from '../assets/tech/figma.png';
-import threejs from '../assets/tech/threejs.svg';
-// import materialUi from '../assets/tech/materialUi.png';
-// import bootStrap from '../assets/tech/bootstrap.png';
-import Expressjs from '../assets/tech/expressjs.png';
+import html from "../assets/tech/html.png";
+import css from "../assets/tech/css.png";
+import reactjs from "../assets/tech/reactjs.png";
+import redux from "../assets/tech/redux.png";
+import javascript from "../assets/tech/javascript.png";
+import tailwind from "../assets/tech/tailwind.png";
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import git from "../assets/tech/git.png";
+import figma from "../assets/tech/figma.png";
+import threejs from "../assets/tech/threejs.svg";
+import materialUi from "../assets/tech/materialUi.png";
+import bootStrap from "../assets/tech/bootstrap.png"
+import expressjs from "../assets/tech/expressjs.png";
 
 import epitoza from '../assets/company/epitoza.png';
 import AccioJob from '../assets/company/accioNew.jpeg';
@@ -78,8 +78,8 @@ const technologies = [
   },
   
   {
-    name: "expressjs",
-    icon: Expressjs,
+    name: "Expressjs",
+    icon: expressjs,
   },
   {
     name: "Node JS",
@@ -109,14 +109,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "materialUi",
-  //   icon:   materialUi,
-  // },
-  // {
-  //   name: "bootStrap",
-  //   icon: bootStrap,
-  // },
+  {
+    name: "Material Ui",
+    icon:   materialUi,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootStrap,
+  },
 ];
 
 const experiences = [
@@ -138,7 +138,7 @@ const experiences = [
   },
   {
     title: "MERN Stack development (Trainee)",
-    company_name: "Acciohob",
+    company_name: "AccioJob",
     icon: AccioJob,
     iconBg: "#E6DEDD",
     date: "March 2023 - July 2024",
@@ -226,7 +226,7 @@ const projects = [
         color: "pink-text-gradient",
       },
        {
-        name: "Owl-corousol",
+        name: "Owl-carousel",
         color: "blue-text-gradient",
       },
        {
@@ -240,7 +240,7 @@ const projects = [
   {
     name: "Crypto Tracker",
     description:
-      "CryptoTrackeris the tracker you always needed. Compare different crypto currencies look at their graphs-prices, total volumes, market cap, etc. Implemented various functionality like, Crypto Currencies Grid, List, Search bar, for better user experience ∗ Search from the top 100 Crypto currencies in real time and add them to your watchlist as well .",
+      "CryptoTracker is the tracker you always needed. Compare different crypto currencies look at their graphs-prices, total volumes, market cap, etc. Implemented various functionality like, Crypto Currencies Grid, List, Search bar, for better user experience ∗ Search from the top 100 Crypto currencies in real time and add them to your watchlist as well .",
     tags: [
       {
         name: "React.js",
