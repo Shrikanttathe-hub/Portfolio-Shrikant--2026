@@ -15,8 +15,8 @@ import mongodb from '../assets/tech/mongodb.png';
 import git from '../assets/tech/git.png';
 import figma from '../assets/tech/figma.png';
 import threejs from '../assets/tech/threejs.svg';
-import materialUi from '../assets/tech/materialUi.png';
-import bootStrap from '../assets/tech/bootstrap.png';
+// import materialUi from '../assets/tech/materialUi.png';
+// import bootStrap from '../assets/tech/bootstrap.png';
 import Expressjs from '../assets/tech/expressjs.png';
 
 import epitoza from '../assets/company/epitoza.png';
@@ -109,14 +109,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "materialUi",
-    icon:   materialUi,
-  },
-  {
-    name: "bootStrap",
-    icon: bootStrap,
-  },
+  // {
+  //   name: "materialUi",
+  //   icon:   materialUi,
+  // },
+  // {
+  //   name: "bootStrap",
+  //   icon: bootStrap,
+  // },
 ];
 
 const experiences = [
