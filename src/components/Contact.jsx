@@ -27,9 +27,7 @@ const Contact = () => {
       'service_ez4pmdb',
       'template_ouaeg4k', {
       from_name : form.name,
-      to_name: "Shrikant",
       from_email: form.email,
-      to_email: "sptathe@gmail.com",
       message: form.message,
     }, 'gZWcjIYbaSJUyK7Ot')
     .then(() => {
